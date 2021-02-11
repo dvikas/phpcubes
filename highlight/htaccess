@@ -1,0 +1,2 @@
+# use this as an example on how to customize the PHP highlighter
+php_value highlight.keyword #ff00ff

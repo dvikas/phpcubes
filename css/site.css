@@ -1,0 +1,107 @@
+  /**********************\
+   * MOZILLA FIREFOX STYLE
+  \**********************/
+  /*pre{font-family:Tahoma;font-size:px;}*/
+  .tagName{color:purple;}
+  .funName{color:darkblue;font-weight:bold}
+  .tagAttribute{color:red;}
+  .tagValue{color:blue;}
+  .HTMLComment{font-style:italic;color:green;}
+  .shell-keyword{
+    color:#ACF00C;
+  }
+  .shell-root{
+    color:#FFF;
+  }
+  .shell{
+    font-weight:bold;
+    background-color:#300A24;
+  }
+  h5 {
+    color: #008000;
+    font-family: comic sans ms;
+    font-size: 30px;
+}
+dl dd a.list-group-item{
+ border: 1px solid #DDDDDD;
+}
+pre{
+   float:left;
+   width:100%;
+  }
+
+  p.bg-warning,p.bg-danger,p.bg-success,p.bg-info,p.bg-primary {
+    padding: 15px;
+}
+div .badge  {
+    background-color: #428BCA;
+    color: #FFFFFF;
+}
+
+h4 .glyphicon.glyphicon-tags {
+    font-size: 12px;
+}
+
+.breadcrumb {
+   border: 1px solid #D3D3D3;
+}
+
+
+
+.navbar-header>.navbar-brand{
+    font-size: 28px;
+}
+
+.breadcrumb-div{
+  float: left;
+  width: 100%;
+}
+
+.hl-main{
+  float: left;
+  width:100%;
+}
+
+.error{
+  color: #A94442;
+}
+  /*pre{
+    max-height: 440px;
+    overflow-y: scroll;
+  }
+  .dp-highlighter{
+    max-height: 440px;
+    overflow-y: scroll;
+  }*/
+
+
+/*
+.thumbnail .caption {
+     height: 75px;
+}
+
+.thumbnail:hover {
+    background: none repeat scroll 0 0 #DFF0D8;
+}
+
+
+.thumbnail{
+box-shadow:0 1px 8px rgba(0, 0, 0, 0.25)
+}
+
+
+
+.span3 li {
+    list-style: circle outside none;
+}
+
+.caption{
+  font-size:15px;
+}
+.caption h3{
+  font-size:15px;
+  font-weight:normal;
+  line-height: 16px;
+}
+
+*/

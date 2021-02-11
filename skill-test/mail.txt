@@ -1,0 +1,205 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>TEST PHP SKILLS: Online PHP Test | PHP Certification Practice | PHP Interview Questions | PHP Test Series </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- Meta Tage Work start from here -->
+<META NAME="Description" CONTENT="Test my PHP skills online with answers on same page.Show multiple choice with instant answer on same page.PHP test series for interview and certification with description of each question.">
+
+<META NAME="Classification" CONTENT="PHP question and answer,PHP quiz,PHP exam,PHP assessment,PHP skills MySQL quiz,mySQL exam,mySQL assessment,MySQL skills">
+
+<META NAME="Keywords" CONTENT="PHP question,PHP interview,quiz,PHP quiz,PHP exam,PHP skills MySQL quiz,mySQL exam,mySQL assessment,MySQL skills">
+
+<!-- Meta Tage Work ends here -->
+
+    <!-- Le styles -->
+    <link href="bootstrap.min.css" rel="stylesheet">
+    <link href="SyntaxHighlighter.css" rel="stylesheet">
+    <script type="text/javascript" src="jquery-1.7.2.min.js"></script>
+    
+<style type="text/css">
+body{padding-top:20px;padding-bottom:40px}.container-narrow{margin:0 auto;max-width:700px}.container-narrow>hr{margin:30px 0}.jumbotron{margin:60px 0;text-align:justify;height:300px;float:left;}.jumbotron h1{font-size:72px;line-height:1}.jumbotron .btn{font-size:21px;padding:14px 24px}.marketing{margin:60px 0}.marketing p+h4{margin-top:28px}div.subnav{-moz-border-bottom-colors:none;-moz-border-image:none;-moz-border-left-colors:none;-moz-border-right-colors:none;-moz-border-top-colors:none;background-color:#fff;background-image:none;border-color:#eee -moz-use-text-color;border-radius:0;border-style:solid none;border-width:2px medium;box-shadow:none;height:54px}.subnav{background-color:#eee;background-image:-moz-linear-gradient(center top,#f5f5f5 0,#eee 100%);background-repeat:repeat-x;border:1px solid #e5e5e5;border-radius:4px 4px 4px 4px;height:36px;margin-bottom:60px;width:700px}div.subnav.subnav-fixed{top:0;position:fixed}ul,ol{list-style-type:upper-alpha;margin:0 0 10px 25px;padding:0}
+
+
+select {
+    font-size: 25px;
+    height: 40px;
+    width: 680px;
+}
+
+img {
+    border: 0 none;
+    float: left;
+    max-width: 100%;
+    vertical-align: middle;
+    margin-top: -20px;
+}
+hr{
+  float:left;
+}
+
+.footer{
+  float:left;
+}
+    </style>
+
+<link  href="/favicon.ico" rel="icon" type="image/x-icon" />
+
+  </head>
+
+
+  <body>
+
+    <div class="container-narrow">
+
+      <div class="masthead">
+        <div >
+          <ul class="nav nav-pills pull-right">
+            <li class="active"><a href="">Home</a></li>
+            <!---<li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>-->
+          </ul>
+        </div>
+
+        <div style="float:left">
+          <img src="test_php_skills.jpg" >
+        </div>
+
+        <div style="float:left">
+          <h1 class="muted" style="display:none">TEST PHP SKILLS</h1>
+          <img src="test-php-skills.png" title="TEST PHP SKILLS" alt="TEST PHP SKILLS" >
+        </div>
+
+        <div style="float:left">
+          <hr>
+        </div>
+      </div>
+<!---------START ---------->
+    <input type="hidden1" name="ans" id="ansId_91" value="4">
+<!---------START ---------->
+  <div class="jumbotron" style="margin:0px;height:auto;">
+
+    <p class="lead">A)&nbsp;&nbsp;The _______ function is used to read a single line from a file and is used when dealing with text files. For reading binary data or other specific segments of a file, you should use the
+_______ function instead.</p>
+    <ul  style="font-weight:bold;">
+      <li><div class="controls"><label class="radio"><input name="option" id="op1" type="radio">fgets(), fseek()</label></div></li>
+
+      <li><div class="controls"><label class="radio"><input name="option" id="op2" type="radio">fread(), fgets()</label></div></li>
+
+      <li><div class="controls"><label class="radio"><input name="option" id="op3" type="radio">fputs(), fgets()</label></div></li>
+
+      <li><div class="controls"><label class="radio"><input name="option" id="op4" type="radio">fgets(), fread()</label></div></li>
+
+      <li><div class="controls"><label class="radio"><input name="option" id="op5" type="radio">fread(), fseek()</label></div></li>
+    </ul>
+
+    <div class="alert alert-success" style="display:block;">
+      <button type="button" class="close" data-dismiss="alert">&times;</button>
+      Although it is possible to specify a maximum length when calling it, the fgets function defaults to reading a single line from the given file resource and is primarily used for text files. The fread function, on the other hand, is used primarily to read binary data. That makes answer D correct.    </div>
+    <a class="btn btn-success btn-small" class="checkMe" id="btn_91" href="javascript:void(0);">Check</a>
+  </div>
+  <hr style="float:left">
+ <!---------END ---------->
+    <input type="hidden1" name="ans" id="ansId_129" value="3">
+<!---------START ---------->
+  <div class="jumbotron" style="margin:0px;height:auto;">
+
+    <p class="lead">B)&nbsp;&nbsp;When sending e-mails that have file attachments using MIME (multi-part e-mails), the body of the message and the attachment must be separated by a special string called a boundary. What MIME e-mail header defines this boundary?</p>
+    <ul  style="font-weight:bold;">
+
+
+
+
+    </ul>
+
+    <div class="alert alert-success" style="display:block;">
+      <button type="button" class="close" data-dismiss="alert">&times;</button>
+      When sending MIME e-mails that are considered multi-part, you must specify a boundary (any US-ASCII string) that is unique enough not to appear at any point in the actual body of the e-mail. This boundary must be unique for each embedded multi-part block in a MIME message; it is specified in the Content-Type: MIME header.    </div>
+    <a class="btn btn-success btn-small" class="checkMe" id="btn_129" href="javascript:void(0);">Check</a>
+  </div>
+  <hr style="float:left">
+ <!---------END ---------->
+    <input type="hidden1" name="ans" id="ansId_146" value="1">
+<!---------START ---------->
+  <div class="jumbotron" style="margin:0px;height:auto;">
+
+    <p class="lead">C)&nbsp;&nbsp;The ___________ statement can be used to add a new row to an existing </p>
+    <ul  style="font-weight:bold;">
+      <li><div class="controls"><label class="radio"><input name="option" id="op1" type="radio">INSERT </label></div></li>
+
+      <li><div class="controls"><label class="radio"><input name="option" id="op2" type="radio">SELECT</label></div></li>
+
+      <li><div class="controls"><label class="radio"><input name="option" id="op3" type="radio">UPADTE</label></div></li>
+
+      <li><div class="controls"><label class="radio"><input name="option" id="op4" type="radio">DELETE</label></div></li>
+
+      <li><div class="controls"><label class="radio"><input name="option" id="op5" type="radio">ADD</label></div></li>
+    </ul>
+
+    <div class="alert alert-success" style="display:block;">
+      <button type="button" class="close" data-dismiss="alert">&times;</button>
+      The INSERT statement is, obviously the correct answer.    </div>
+    <a class="btn btn-success btn-small" class="checkMe" id="btn_146" href="javascript:void(0);">Check</a>
+  </div>
+  <hr style="float:left">
+ <!---------END ---------->
+    <input type="hidden1" name="ans" id="ansId_48" value="2">
+<!---------START ---------->
+  <div class="jumbotron" style="margin:0px;height:auto;">
+
+    <p class="lead">D)&nbsp;&nbsp;In an HTTPS transaction, how are URLs and query strings passed from the browser to the web server?</p>
+    <ul  style="font-weight:bold;">
+      <li><div class="controls"><label class="radio"><input name="option" id="op1" type="radio">They are passed in clear text, and the subsequent transaction is encrypted</label></div></li>
+
+      <li><div class="controls"><label class="radio"><input name="option" id="op2" type="radio">They are encrypted</label></div></li>
+
+      <li><div class="controls"><label class="radio"><input name="option" id="op3" type="radio">The URL is left in clear text, while the query string is encrypted</label></div></li>
+
+      <li><div class="controls"><label class="radio"><input name="option" id="op4" type="radio">The URL is encrypted, while the query string is passed in clear text</label></div></li>
+
+      <li><div class="controls"><label class="radio"><input name="option" id="op5" type="radio">To ensure its encryption, the query string is converted into a header and passed along with the POST information</label></div></li>
+    </ul>
+
+    <div class="alert alert-success" style="display:block;">
+      <button type="button" class="close" data-dismiss="alert">&times;</button>
+      When an HTTPS transaction takes place, the browser and the server immediately negotiate an encryption mechanism so that any subsequent data is not passed in clear textincluding the URL and query string, which are otherwise passed the same way as with a traditional HTTP transaction. Answer B is, therefore, correct.    </div>
+    <a class="btn btn-success btn-small" class="checkMe" id="btn_48" href="javascript:void(0);">Check</a>
+  </div>
+  <hr style="float:left">
+ <!---------END ---------->
+    <input type="hidden1" name="ans" id="ansId_64" value="4">
+<!---------START ---------->
+  <div class="jumbotron" style="margin:0px;height:auto;">
+
+    <p class="lead">E)&nbsp;&nbsp;What is the simplest method of computing the sum of all the elements of an array? </p>
+    <ul  style="font-weight:bold;">
+      <li><div class="controls"><label class="radio"><input name="option" id="op1" type="radio">By traversing the array with a forloop</label></div></li>
+
+      <li><div class="controls"><label class="radio"><input name="option" id="op2" type="radio">By traversing the array with a foreach loop</label></div></li>
+
+      <li><div class="controls"><label class="radio"><input name="option" id="op3" type="radio">By using the array_intersect function</label></div></li>
+
+      <li><div class="controls"><label class="radio"><input name="option" id="op4" type="radio">By using the array_sum function</label></div></li>
+
+      <li><div class="controls"><label class="radio"><input name="option" id="op5" type="radio">By using array_count_values()</label></div></li>
+    </ul>
+
+    <div class="alert alert-success" style="display:block;">
+      <button type="button" class="close" data-dismiss="alert">&times;</button>
+      The array_sum function calculates the sum of all the elements of an array. Therefore, Answer D is correct.    </div>
+    <a class="btn btn-success btn-small" class="checkMe" id="btn_64" href="javascript:void(0);">Check</a>
+  </div>
+  <hr style="float:left">
+ <!---------END ---------->
+</div> <!-- /container -->
+    <script type="text/javascript">
+ $(document).ready(function(){$(".checkMe").click(function(){var b=$("#ansId").val();$('input[type="radio"]').each(function(){if($(this).attr("id")==("op"+b)){$(this).closest(".controls").removeClass("muted");$(this).closest(".controls").removeClass("text-error");$(this).closest(".controls").addClass("text-success");$(this).closest("li").addClass("text-success");}else{if($(this).is(":checked")==true&&$(this).attr("id")!=("op"+b)){$(this).closest(".controls").removeClass("text-success");$(this).closest(".controls").removeClass("muted");$(this).closest(".controls").addClass("text-error")}else{$(this).closest(".controls").removeClass("text-success");$(this).closest(".controls").removeClass("text-error");$(this).closest(".controls").addClass("muted")}}});var a=b.split(",");$('input[type="checkbox"]').each(function(){var c=$(this).attr("id").replace("op","");if($.inArray(c,a)!=-1){$(this).closest(".controls").removeClass("muted");$(this).closest(".controls").removeClass("text-error");$(this).closest(".controls").addClass("text-success");$(this).closest("li").addClass("text-success")}else{if($(this).is(":checked")==true&&$.inArray(c,a)==-1){$(this).closest(".controls").removeClass("text-success");$(this).closest(".controls").removeClass("muted");$(this).closest(".controls").addClass("text-error")}else{$(this).closest(".controls").removeClass("text-success");$(this).closest(".controls").removeClass("text-error");$(this).closest(".controls").addClass("muted")}}});$(".alert").show()})});
+    </script>
+
+
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/application.js"></script>
+  </body>
+</html>

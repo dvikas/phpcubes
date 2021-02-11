@@ -1,0 +1,120 @@
+      body {
+        padding-top: 60px;
+        padding-bottom: 40px;
+        /*font-family: 'Muli', sans-serif;*/
+        line-height: 25px;
+      }
+      .sidebar-nav {
+        padding: 0px 0;
+      }
+
+#searchDivUl {
+    width:470px;
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #C9C9C9;
+    display: block;
+    left: 0;
+    margin-top: 1px;
+    padding: 5px;
+    position: absolute;
+    top: 29px;
+    z-index: 900;
+    margin-left:355px;
+    margin-top:15px;
+    height: auto;
+    overflow: auto;
+    max-height:400px;
+}
+#searchDivUl li {
+    font-size: 13px;
+    font-weight: bold;
+    list-style: none outside none;
+    padding: 5px;
+}
+#searchDivUl a:hover{
+        font-weight: bold;
+        text-decoration: underline;
+        background: white;
+        color: green ;
+}
+#searchId{
+  border-radius: 20px 20px 20px 20px;
+    -moz-transition: none 0s ease 0s;
+    background-color: #515151;
+    border-color: #111111;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1) inset, 0 1px 0 rgba(255, 255, 255, 0.15);
+      border-radius: 15px 15px 15px 15px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 13px;
+    font-weight: normal;
+    line-height: 1;
+    margin-bottom: 0;
+    padding: 4px 14px;
+}
+#searchId:-moz-placeholder {
+    color: #CCCCCC;
+}
+#searchId:focus{
+    background-color: #FFFFFF;
+    border: 0 none;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.15);
+    color: #333333;
+    outline: 0 none;
+    padding: 5px 15px;
+    text-shadow: 0 1px 0 #FFFFFF;
+}
+
+form {
+    margin: 0;
+}
+  /**********************\
+   * MOZILLA FIREFOX STYLE
+  \**********************/
+  /*pre{font-family:Tahoma;font-size:px;}*/
+  .tagName{color:purple;}
+  .funName{color:darkblue;font-weight:bold}
+  .tagAttribute{color:red;}
+  .tagValue{color:blue;}
+  .HTMLComment{font-style:italic;color:green;}
+
+  /*pre{
+    max-height: 440px;
+    overflow-y: scroll;
+  }
+  .dp-highlighter{
+    max-height: 440px;
+    overflow-y: scroll;
+  }*/
+  .hero-unit {
+    background:none;
+  }
+
+  .row-fluid [class*="span"]:nth-child(3n+1) {
+    margin-left: 0;
+}
+
+.thumbnail .caption {
+     height: 75px;   
+}
+
+.thumbnail:hover {
+    background: none repeat scroll 0 0 #DFF0D8;
+}
+
+p.action{
+    bottom: 0;
+    position: absolute;
+    right: 0;
+}
+
+.thumbnail{
+box-shadow:0 1px 8px rgba(0, 0, 0, 0.25)
+}
+
+  .nav-header{
+    background-color: #EEEEEE;
+  }
+ .active > a, .active > a:hover {
+    color: #54A854;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2);
+  }

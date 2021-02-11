@@ -1,0 +1,32 @@
+[Wed Mar 19 15:03:30.327476 2014] [core:error] [pid 2056:tid 1728] (20024)The given path is misformatted or contained invalid characters: [client 127.0.0.1:52961] AH00127: Cannot map GET /vikas-dwivedi/... HTTP/1.1 to file, referer: http://phpcubes.local/vikas-dwivedi/
+[Wed Mar 19 21:21:26.646487 2014] [core:alert] [pid 2056:tid 1724] [client 127.0.0.1:59022] D:/itbs/phpcube/.htaccess: Redirect to non-URL
+[Wed Mar 19 21:21:39.853242 2014] [core:alert] [pid 2056:tid 1724] [client 127.0.0.1:59024] D:/itbs/phpcube/.htaccess: Redirect to non-URL
+[Wed Mar 19 21:21:41.759351 2014] [core:alert] [pid 2056:tid 1724] [client 127.0.0.1:59025] D:/itbs/phpcube/.htaccess: Redirect to non-URL
+[Wed Mar 19 21:21:57.875273 2014] [core:alert] [pid 2056:tid 1724] [client 127.0.0.1:59036] D:/itbs/phpcube/.htaccess: Redirect to non-URL
+[Wed Mar 19 21:22:10.041969 2014] [core:alert] [pid 2056:tid 1724] [client 127.0.0.1:59038] D:/itbs/phpcube/.htaccess: Redirect to non-URL
+[Wed Mar 19 21:22:36.771498 2014] [core:alert] [pid 2056:tid 1724] [client 127.0.0.1:59044] D:/itbs/phpcube/.htaccess: Redirect to non-URL
+[Wed Mar 19 21:22:37.196522 2014] [core:alert] [pid 2056:tid 1724] [client 127.0.0.1:59046] D:/itbs/phpcube/.htaccess: Redirect to non-URL
+[Wed Mar 19 21:45:47.160023 2014] [:error] [pid 2056:tid 1716] [client 127.0.0.1:59420] script 'D:/itbs/phpcube/people.php' not found or unable to stat
+[Wed Mar 19 21:51:36.202987 2014] [core:alert] [pid 2056:tid 1716] [client 127.0.0.1:59574] D:/itbs/phpcube/.htaccess: Redirect: invalid first argument (of three)
+[Wed Mar 19 21:51:36.673014 2014] [core:alert] [pid 2056:tid 1716] [client 127.0.0.1:59577] D:/itbs/phpcube/.htaccess: Redirect: invalid first argument (of three)
+[Wed Mar 19 21:51:47.337624 2014] [core:alert] [pid 2056:tid 1716] [client 127.0.0.1:59579] D:/itbs/phpcube/.htaccess: Redirect: invalid first argument (of three)
+[Wed Mar 19 21:51:48.833710 2014] [core:alert] [pid 2056:tid 1716] [client 127.0.0.1:59582] D:/itbs/phpcube/.htaccess: Redirect: invalid first argument (of three)
+[Wed Mar 19 21:52:10.119927 2014] [core:alert] [pid 2056:tid 1716] [client 127.0.0.1:59608] D:/itbs/phpcube/.htaccess: Redirect: invalid first argument (of three)
+[Wed Mar 19 21:52:10.529951 2014] [core:alert] [pid 2056:tid 1716] [client 127.0.0.1:59610] D:/itbs/phpcube/.htaccess: Redirect: invalid first argument (of three)
+[Wed Mar 19 21:52:10.550952 2014] [core:alert] [pid 2056:tid 1716] [client 127.0.0.1:59611] D:/itbs/phpcube/.htaccess: Redirect: invalid first argument (of three)
+[Wed Mar 19 21:52:22.970662 2014] [core:alert] [pid 2056:tid 1716] [client 127.0.0.1:59625] D:/itbs/phpcube/.htaccess: Redirect: invalid first argument (of three)
+[Wed Mar 19 21:52:23.440689 2014] [core:alert] [pid 2056:tid 1716] [client 127.0.0.1:59628] D:/itbs/phpcube/.htaccess: Redirect: invalid first argument (of three)
+[Wed Mar 19 21:52:36.274423 2014] [core:alert] [pid 2056:tid 1716] [client 127.0.0.1:59638] D:/itbs/phpcube/.htaccess: Redirect: invalid first argument (of three)
+[Wed Mar 19 21:52:37.929518 2014] [core:alert] [pid 2056:tid 1716] [client 127.0.0.1:59640] D:/itbs/phpcube/.htaccess: Redirect: invalid first argument (of three)
+[Wed Mar 19 21:52:38.375544 2014] [core:alert] [pid 2056:tid 1716] [client 127.0.0.1:59642] D:/itbs/phpcube/.htaccess: Redirect: invalid first argument (of three)
+[Wed Mar 19 21:52:48.865144 2014] [core:alert] [pid 2056:tid 1716] [client 127.0.0.1:59657] D:/itbs/phpcube/.htaccess: Redirect: invalid first argument (of three)
+[Wed Mar 19 21:52:49.290168 2014] [core:alert] [pid 2056:tid 1716] [client 127.0.0.1:59659] D:/itbs/phpcube/.htaccess: Redirect: invalid first argument (of three)
+[Wed Mar 19 21:52:49.338171 2014] [core:alert] [pid 2056:tid 1716] [client 127.0.0.1:59661] D:/itbs/phpcube/.htaccess: Redirect: invalid first argument (of three)
+[Wed Mar 19 21:52:56.093557 2014] [core:alert] [pid 2056:tid 1716] [client 127.0.0.1:59670] D:/itbs/phpcube/.htaccess: Redirect to non-URL
+[Fri Apr 11 23:49:15.632641 2014] [core:error] [pid 2288:tid 1724] (20024)The given path is misformatted or contained invalid characters: [client 127.0.0.1:49575] AH00127: Cannot map GET /vikas-dwivedi/... HTTP/1.1 to file, referer: http://phpcubes.local/vikas-dwivedi/
+[Sun Mar 29 23:50:52.925169 2015] [:error] [pid 1204:tid 1660] [client 127.0.0.1:61253] script 'D:/itbs/phpcube/sb-admin/testing.php' not found or unable to stat, referer: http://www.phpcubes.local/sb-admin/pages/jtable/jtable_jqueryui.css
+[Sun Mar 29 23:50:52.925169 2015] [:error] [pid 1204:tid 1692] [client 127.0.0.1:61252] script 'D:/itbs/phpcube/sb-admin/testing.php' not found or unable to stat, referer: http://www.phpcubes.local/sb-admin/pages/jtable/jtable_jqueryui.css
+[Sun Mar 29 23:51:01.855680 2015] [:error] [pid 1204:tid 1692] [client 127.0.0.1:61258] script 'D:/itbs/phpcube/sb-admin/testing.php' not found or unable to stat, referer: http://www.phpcubes.local/sb-admin/pages/jtable/jtable_jqueryui.css
+[Sun Mar 29 23:51:01.863680 2015] [:error] [pid 1204:tid 1668] [client 127.0.0.1:61260] script 'D:/itbs/phpcube/sb-admin/testing.php' not found or unable to stat, referer: http://www.phpcubes.local/sb-admin/pages/jtable/jtable_jqueryui.css
+[Sat Apr 04 17:21:54.595247 2015] [core:error] [pid 4048:tid 1688] (20024)The given path is misformatted or contained invalid characters: [client 127.0.0.1:56586] AH00127: Cannot map GET /%22../upload/images/loops/for-loop-with-flow-phpcubes-dot-com.png/%22 HTTP/1.1 to file, referer: http://www.phpcubes.local/structure-of-for-loop-with-flow.html
+[Thu Apr 16 18:58:45.026366 2015] [core:error] [pid 1952:tid 1688] (20024)The given path is misformatted or contained invalid characters: [client 127.0.0.1:54397] AH00127: Cannot map GET /rajan/pages/... HTTP/1.1 to file, referer: http://www.phpcubes.local/rajan/pages/content.php?id=118

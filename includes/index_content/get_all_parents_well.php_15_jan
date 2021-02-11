@@ -1,0 +1,22 @@
+
+  <div>
+<?php
+// pr($allParents , __LINE__ , __FILE__);
+foreach ($allParents as $key => $value) {
+
+?>
+    <div class="col-md-4">
+      <div class="thumbnail">
+        <!-- <img src="http://placehold.it/350x100/AAF7CB/0000FF&text=<?=(strip_tags($value['title']))?>" alt="<?=$value['title']?>"> -->
+        <div class="caption">
+
+          <h4><a href="<?=BASE_URL.'/'.$value['alias']?>"><?=$value['title']?></a></h4>
+          <p><?=$value['content']?></p>
+        </div>
+
+      </div>
+    </div>
+<?php
+}
+?>
+  </div>

@@ -1,0 +1,159 @@
+
+ul.tagit {
+    padding: 1px 5px;
+    overflow: auto;
+    margin-left: inherit; /* usually we don't want the regular ul margins. */
+    margin-right: inherit;
+}
+ul.tagit li {
+    display: block;
+    float: left;
+    margin: 2px 5px 2px 0;
+}
+ul.tagit li.tagit-choice {
+    position: relative;
+    line-height: inherit;
+}
+
+ul.tagit li.tagit-choice-read-only {
+    padding: .2em .5em .2em .5em;
+}
+
+ul.tagit li.tagit-choice-editable {
+    padding: .2em 18px .2em .5em;
+}
+
+ul.tagit li.tagit-new {
+    padding: .25em 4px .25em 0;
+}
+
+ul.tagit li.tagit-choice a.tagit-label {
+    cursor: pointer;
+    text-decoration: none;
+    color:#3198B6;
+}
+ul.tagit li.tagit-choice .tagit-close {
+    cursor: pointer;
+    position: absolute;
+    right: .1em;
+    top: 50%;
+    margin-top: -8px;
+}
+
+/* used for some custom themes that don't need image icons */
+ul.tagit li.tagit-choice .tagit-close .text-icon {
+    display: none;
+}
+
+ul.tagit li.tagit-choice input {
+    display: block;
+    float: left;
+    margin: 2px 5px 2px 0;
+}
+ul.tagit input[type="text"] {
+    -moz-box-sizing:    border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing:         border-box;
+
+    border: none;
+    margin: 0;
+    padding: 0;
+    width: inherit;
+    background-color: inherit;
+    outline: none;
+}
+
+
+ul.tagit {
+    background: inherit;
+    border:none;
+}
+ul.tagit li.tagit-choice {
+    background: none repeat scroll 0 0 #DEE7F8;
+    border: 1px solid #CAD8F3;
+    border-radius: 6px 6px 6px 6px;
+    color: #555555;
+    font-weight: normal;
+}
+ul.tagit li.tagit-choice a.tagit-close {
+    text-decoration: none;
+}
+ul.tagit li.tagit-choice .tagit-close {
+    right: 0.4em;
+}
+ul.tagit li.tagit-choice .ui-icon {
+    display: none;
+}
+ul.tagit li.tagit-choice .tagit-close .text-icon {
+    color: #777777;
+    display: inline;
+    font-family: arial,sans-serif;
+    font-size: 16px;
+    line-height: 16px;
+}
+ul.tagit li.tagit-choice:hover, ul.tagit li.tagit-choice.remove {
+    background-color: #BBCEF1;
+    border-color: #6D95E0;
+}
+ul.tagit li.tagit-choice a.tagLabel:hover, ul.tagit li.tagit-choice a.tagit-close .text-icon:hover {
+    color: #222222;
+}
+ul.tagit input[type="text"] {
+    background: none repeat scroll 0 0 transparent;
+    color: #333333;
+
+}
+
+
+
+.ui-autocomplete {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: #FFFFFF;
+    border-color: -moz-use-text-color #E5E5E5 #E5E5E5;
+    border-image: none;
+    border-radius: 0 0 10px 10px;
+    border-right: 1px solid #E5E5E5;
+    border-style: none solid solid;
+    border-width: medium 1px 1px;
+    box-shadow: 0 3px 5px #888888;
+    cursor: default;
+    font-size: 12px;
+    list-style: none outside none;
+    margin: 25px 0 0;
+    padding: 0;
+    position: absolute;
+}
+.ui-autocomplete .ui-menu-item {
+    margin: 0;
+    padding: 0;
+}
+.ui-autocomplete .ui-menu-item a {
+    border-bottom: 1px solid #E5E5E5;
+    border-top: 1px solid #FFFFFF;
+    color: #78959D;
+    display: block;
+    line-height: 12px;
+    margin: 0;
+    padding: 4px 6px;
+    text-decoration: none;
+}
+.ui-autocomplete .ui-menu-item a.ui-state-hover, .ui-autocomplete .ui-menu-item a.ui-state-active {
+    background-color: #C0D1E2;
+    border-color: #A6CEF7;
+    color: #555555;
+}
+
+ul.tagit li.tagit-choice a.tagit-close:hover {
+    color: #FF0000;
+}
+ul.tagit input[type="text"] {
+    -moz-box-sizing: border-box;
+    border: medium none !important;
+    margin: 0 !important;
+    outline: medium none;
+    padding: 0 !important;
+    width: inherit !important;
+}

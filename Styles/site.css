@@ -1,0 +1,268 @@
+      body {
+        padding-top: 60px;
+        padding-bottom: 40px;
+        /*font-family: 'Muli', sans-serif;*/
+        line-height: 25px;
+            background: url("../img/content.png") repeat scroll 0 0 transparent;
+      }
+      .sidebar-nav {
+        padding: 0px 0;
+      }
+
+
+#searchDivUl {
+    width:470px;
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #C9C9C9;
+    display: block;
+    left: 0;
+    margin-top: 1px;
+    padding: 5px;
+    position: absolute;
+    top: 29px;
+    z-index: 900;
+    margin-left:355px;
+    margin-top:15px;
+    height: auto;
+    overflow: auto;
+    max-height:400px;
+}
+#searchDivUl li {
+    font-size: 13px;
+    font-weight: bold;
+    list-style: none outside none;
+    padding: 5px;
+}
+#searchDivUl a:hover{
+        font-weight: bold;
+        text-decoration: underline;
+        background: white;
+        color: green ;
+}
+#searchId{
+  border-radius: 20px 20px 20px 20px;
+    -moz-transition: none 0s ease 0s;
+    background-color: #515151;
+    border-color: #111111;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1) inset, 0 1px 0 rgba(255, 255, 255, 0.15);
+      border-radius: 15px 15px 15px 15px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 13px;
+    font-weight: normal;
+    line-height: 1;
+    margin-bottom: 0;
+    padding: 4px 14px;
+}
+#searchId:-moz-placeholder {
+    color: #CCCCCC;
+}
+#searchId:focus{
+    background-color: #FFFFFF;
+    border: 0 none;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.15);
+    color: #333333;
+    outline: 0 none;
+    padding: 5px 15px;
+    text-shadow: 0 1px 0 #FFFFFF;
+}
+
+form {
+    margin: 0;
+}
+  /**********************\
+   * MOZILLA FIREFOX STYLE
+  \**********************/
+  /*pre{font-family:Tahoma;font-size:px;}*/
+  .tagName{color:purple;}
+  .funName{color:darkblue;font-weight:bold}
+  .tagAttribute{color:red;}
+  .tagValue{color:blue;}
+  .HTMLComment{font-style:italic;color:green;}
+
+  /*pre{
+    max-height: 440px;
+    overflow-y: scroll;
+  }
+  .dp-highlighter{
+    max-height: 440px;
+    overflow-y: scroll;
+  }*/
+  .hero-unit {
+    background:none;
+  }
+
+  .row-fluid [class*="span"]:nth-child(3n+1) {
+    margin-left: 0;
+}
+
+.thumbnail .caption {
+     height: 75px;
+}
+
+.thumbnail:hover {
+    background: none repeat scroll 0 0 #DFF0D8;
+}
+
+p.action{
+    bottom: 0;
+    position: absolute;
+    right: 0;
+}
+
+.thumbnail{
+box-shadow:0 1px 8px rgba(0, 0, 0, 0.25)
+}
+
+  .nav-header{
+    background-color: #EEEEEE;
+  }
+ .active > a, .active > a:hover {
+    color: #54A854;
+
+  }
+ul ul, ul ol, ol ol, ol ul {
+list-style: none;
+margin-left: 0px;
+}
+
+.left-menu-switcher{
+
+    background-color: blue;
+    color: #FFFFFF;
+    font-family: 'Comic Sans MS';
+    font-weight: 600;
+    left: -37px;
+    letter-spacing: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: relative;
+    text-transform: uppercase;
+    top: 312px;
+    margin-right: -84px;
+    cursor:pointer;
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+  /* also accepts left, right, top, bottom coordinates; not required, but a good idea for styling */
+  -webkit-transform-origin: 50% 50%;
+  -moz-transform-origin: 50% 50%;
+  -ms-transform-origin: 50% 50%;
+  -o-transform-origin: 50% 50%;
+  transform-origin: 50% 50%;
+  /* Should be unset in IE9+ I think. */
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+
+.nav-header.active li {
+    border-bottom: 1px solid lightblue;
+      list-style: none outside none;
+}
+
+.nav-header .nav > li  {
+  font-weight: 700;
+}
+
+.navbar .nav > li > a {
+  font-weight: 700;
+}
+
+.span3 li {
+    list-style: circle outside none;
+}
+
+.caption{
+  font-size:15px;
+}
+.caption h3{
+  font-size:15px;
+  font-weight:normal;
+  line-height: 16px;
+}
+
+ul.related_post {
+    list-style: none outside none;
+}
+ul.related_post, ul.related_post ul {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+ul.related_post li {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0) !important;
+    display: inline-block;
+    float: none !important;
+    margin-bottom: 0 !important;
+    margin-left: 0 !important;
+    margin-right: 15px !important;
+    margin-top: 0;
+    padding: 0 !important;
+    vertical-align: top !important;
+    width: 240px !important;
+}
+ul.related_post li ul li {
+    background-color: #FFFFFF !important;
+    border: 1px solid #EFEFEF !important;
+    border-radius: 1px 1px 1px 1px !important;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.16) !important;
+    display: block;
+    font-size: 18px !important;
+    line-height: 30px;
+    margin-bottom: 15px !important;
+    padding: 15px !important;
+    width: 210px !important;
+}
+ul.related_post li ul li:nth-child(2n+1) {
+    animation-duration: 0.6s;
+}
+ul.related_post li ul li:hover {
+    box-shadow: 0 5px 20px 3px rgba(0, 0, 0, 0.1) !important;
+    transform: scale(1.05);
+}
+ul.related_post li a.wp_rp_title {
+    color: #000000 !important;
+    display: block !important;
+    font-family: mangal;
+    text-decoration: none !important;
+    text-indent: 0 !important;
+    width: 100% !important;
+}
+ul.related_post li a.wp_rp_thumbnail {
+    clear: both !important;
+    display: block !important;
+}
+ul.related_post li a.wp_rp_thumbnail img {
+    border-radius: 0 0 0 0 !important;
+    box-shadow: none !important;
+    height: auto !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    text-align: center !important;
+    width: 210px !important;
+}
+ul.related_post li p {
+    color: #000000 !important;
+}
+ul.related_post li.wp_rp_related_post_load_more {
+    display: block;
+    margin: 10px 0 !important;
+    text-align: center !important;
+    width: 100% !important;
+}
+ul.related_post li.wp_rp_related_post_load_more img.zloader {
+    border: medium none;
+    box-shadow: none;
+    display: none;
+}
+.wp_rp_related_post_column p{
+    font-size: 15px;
+    text-align: justify;
+}
+.wp_rp_related_post_column h3{
+   border-bottom: 1px solid #E6E6FA;
+    font-size: 16px;
+    line-height: 27px;
+  }
+	.quote{
+		padding-bottom:15px;
+	}
